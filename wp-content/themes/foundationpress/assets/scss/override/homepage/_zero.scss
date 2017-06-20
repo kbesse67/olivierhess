@@ -1,0 +1,24 @@
+.thezero {
+  width:420px;
+  height:500px;
+  background:red;
+  display:inline-block ;
+
+  nav {
+    ul {
+      list-style-type: none;
+      li {
+
+      }
+    }
+  }
+}
+
+
+
+
+@include breakpoint(small only) {
+
+
+
+}

@@ -15,6 +15,23 @@
 
 get_header(); ?>
 
-<h1>la chatte</h1>
+<div class="thezero">
+
+</div><!--
+
+--><div class="themain">
+  <div class="expanded row videoaccueil">
+    	<video data-autoplay="" autoplay id="myVideo" loop="">
+        <source src="wp-content/themes/foundationpress/assets/images/video.webm" type="video/webm">
+      </video>
+  </div>
+  <section class="expanded row accueil">
+    <h3>“Structures intérieures”</h3>
+    <h2>Envie d'un mobilier entièrement sur-mesure et qui correspond à votre Univers ?</h2>
+    <a href="" class="button">Voir les travaux</a>
+    <a href="" class="hollow button secondary">Contacter Olivier Hess</a>
+  </section>
+</div>
+
 
 <?php get_footer();

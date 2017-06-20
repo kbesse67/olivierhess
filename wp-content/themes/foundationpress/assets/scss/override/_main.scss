@@ -1,0 +1,18 @@
+.themain {
+  background:blue;
+  position:relative;
+  width:calc(100% - 420px);
+
+  display:inline-block;
+  vertical-align: top;
+  position:relative;
+
+}
+
+
+
+@include breakpoint(small only) {
+
+
+
+}
