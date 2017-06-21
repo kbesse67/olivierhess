@@ -53,7 +53,7 @@ $foundation-palette: (
   primary: #283376,
   secondary: #fff,
   success: #3adb76,
-  warning: #ffae00,
+  warning: #000000,
   alert: #cc4b37,
 );
 $light-gray: #e6e6e6;
@@ -83,7 +83,7 @@ $print-transparent-backgrounds: true;
 $breakpoints: (
   small: 0,
   medium: 640px,
-  large: 1024px,
+  large: 1280px,
   xlarge: 1200px,
   xxlarge: 1440px,
 );
@@ -361,10 +361,10 @@ $helptext-color: $black;
 $helptext-font-size: rem-calc(13);
 $helptext-font-style: italic;
 $input-prefix-color: $black;
-$input-prefix-background: $light-gray;
+$input-prefix-background: $white;
 $input-prefix-border: 1px solid $medium-gray;
 $input-prefix-padding: 1rem;
-$form-label-color: $black;
+$form-label-color: $white;
 $form-label-font-size: rem-calc(14);
 $form-label-font-weight: $global-weight-normal;
 $form-label-line-height: 1.8;

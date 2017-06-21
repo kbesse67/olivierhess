@@ -1,13 +1,35 @@
+.contact {
+  background:#283376;
+  padding-top:590px;
+  color:white;
 
+  h2 {
+    margin-bottom:50px;
+  }
+
+  p {
+    padding-top:20px;
+  }
+}
 
 
 @include breakpoint(medium only) {
+  .contact {
 
+    padding-top:150px;
+    padding-bottom:150px;
+
+}
 
 }
 
 
 
 @include breakpoint(small only) {
+  .contact {
 
+    padding-top:100px;
+    padding-bottom:100px;
+
+}
 }

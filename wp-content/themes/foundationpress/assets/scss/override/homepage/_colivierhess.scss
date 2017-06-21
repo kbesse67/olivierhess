@@ -1,12 +1,46 @@
 
+.olivierhass{
+  padding-top:590px;
 
+  height:1270px;
+  background:url(../images/olivierhess.png);
+  color:white;
+  p {
+    line-height:30px;
+  }
+}
 
-@include breakpoint(medium only) {
+@media screen and (max-width: rem-calc(1220)) {
 
+  .olivierhass{
+    height:1580px;
+  }
 }
 
 
+@include breakpoint(medium only) {
+  .olivierhass{
+    padding-top:590px;
+      height:inherit;
+      padding-bottom:100px;
+  }
+
+}
+
+@media screen and (max-width: rem-calc(750)) {
+
+  .olivierhass{
+  padding-top:390px;
+  }
+}
 
 @include breakpoint(small only) {
 
+  .olivierhass{
+    padding-top:100px;
+      height:inherit;
+      padding-bottom:100px;
+
+      p{margin-top:20px;}
+    }
 }

@@ -1,15 +1,47 @@
+.travaux {
+  padding-top:150px;
+  padding-bottom:150px;
 
+  h4 {font-weight:700;}
+  h5 {color:#c5c5c6;}
+  .row {
+    padding-top:160px;
+
+  }
+
+  img:hover {
+    opacity:0.8;
+  }
+
+  .travauxright {
+    text-align:right;
+  }
+
+}
 
 @include breakpoint(medium only) {
+.travaux {
+    h5 {margin-bottom:10px;}
+    .row {
+      padding-top:160px;
+  }
+}
 
 }
 
 
 
 
-
-
 @include breakpoint(small only) {
 
+  .travaux {
+    padding-top:50px;
+    padding-bottom:50px;
+      h5 {margin-bottom:10px;}
+      h4 {margin-top:10px;}
+      .row {
+        padding-top:160px;
+    }
+  }
 
   }

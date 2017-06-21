@@ -28,17 +28,17 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="mySidenav" class="sidenav">
+	<header id="mySidenav" class="sidenav wow fadeIn">
 
-	<a href="#" class="text-center logo wow fadeInLeft" data-wow-delay="0.4s" >
+	<a href="#" class="text-center logo wow fadeInLeft js-scrollTo" data-wow-delay="0.4s" >
 		<img src="wp-content/themes/foundationpress/assets/images/logo.png" alt=""></a>
 
 	<nav>
     <ul>
-			 <li class="hvr-grow wow fadeInLeft navhome" data-wow-delay="0.4s" ><a href="#">Home</a></li>
-      <li class="hvr-grow wow fadeInLeft" data-wow-delay="0.4s"><a href="#">Travaux</a></li>
-      <li  class="hvr-grow wow fadeInLeft" data-wow-delay="0.6s"><a href="#">Olivier Hess</a></li>
-      <li  class="hvr-grow wow fadeInLeft" data-wow-delay="0.8s"><a href="#">Contact</a></li>
+			 <li class="hvr-grow wow fadeInLeft navhome" data-wow-delay="0.4s" ><a href="#" class="js-scrollTo">Home</a></li>
+      <li class="hvr-grow wow fadeInLeft" data-wow-delay="0.4s"><a href="#travaux" class="js-scrollTo">Travaux</a></li>
+      <li  class="hvr-grow wow fadeInLeft" data-wow-delay="0.6s"><a href="#olivierhass" class="js-scrollTo">Olivier Hess</a></li>
+      <li  class="hvr-grow wow fadeInLeft" data-wow-delay="0.8s"><a href="#contact" class="js-scrollTo">Contact</a></li>
     </ul>
   </nav>
 

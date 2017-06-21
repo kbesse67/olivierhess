@@ -34,19 +34,16 @@
 jQuery(document).ready(function() {
 		new WOW().init();
 		console.log("jQuery est prêt !");
-		WOW.prototype.isPositionFixed = function(element) {
-		var position;
-
-		position = getComputedStyle(element).position;
-
-		while (element.parentNode && element.parentNode.localName !== 'body' && position !== 'fixed') {
-				position = getComputedStyle(element).position;
-				if (position === 'fixed') { break; }
-				element = element.parentNode;
-		}
-
-		return position === 'fixed' ? true : false;
-};
+		//SCROLL TO TOP ON PAGE REFRESH
+		$(window).on('beforeunload', function() {
+		    $(window).scrollTop(0);
+		});
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 1500; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
 });
 </script>
 </body>
