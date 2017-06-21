@@ -20,7 +20,7 @@ get_header(); ?>
 </div><!--
 
 --><div class="themain">
-  <div class="expanded row videoaccueil" id="accueil">
+  <div class="expanded row videoaccueil" id="accueil" data-magellan-target="accueil">
     	<video data-autoplay="" autoplay id="myVideo" loop="">
         <source src="wp-content/themes/foundationpress/assets/images/video.webm" type="video/webm">
       </video>
@@ -32,7 +32,7 @@ get_header(); ?>
     <a href="" class="hollow button secondary wow fadeInRight " data-wow-delay="1.4s">Contacter Olivier Hess</a>
   </section>
 
-  <section class="travaux" id="travaux">
+  <section class="travaux" id="travaux" data-magellan-target="travaux">
 
     <div class="expanded row">
       <div class="large-9 columns wow fadeInLeft" data-wow-delay="0.4s">
@@ -86,7 +86,7 @@ get_header(); ?>
   </section>
 
 
-<section class="olivierhass" id="olivierhass">
+<section class="olivierhass" id="olivierhass" data-magellan-target="olivierhass">
   <div class="expanded row">
     <div class="large-12 large-offset-1 columns ">
       <h2 class="wow fadeInLeft">10 ans de passion, <br> 10 ans d'expériences</h2>
@@ -107,7 +107,7 @@ get_header(); ?>
 
 
 
-<form  class="contact" id="contact">
+<form  class="contact" id="contact" data-magellan-target="contact">
   <div class="expanded row">
     <div class="large-11 large-offset-1 columns">
           <h2 class="wow fadeInLeft">Contact</h2>
@@ -121,16 +121,16 @@ Lui poser des questions ? Remplissez le formulaire, il se chargera de vous répo
 
     </div>
     <div class="large-4 columns">
-      <label for="name" class="wow fadeInUp" data-wow-delay="0.4s">Nom & Prénom</label>
+      <label for="name" class="wow fadeInUp" data-wow-delay="0.6s">Nom & Prénom</label>
   		<input type="text" name="name" id="name" placeholder="Nom & Prénom" value="" class="wow fadeInUp" data-wow-delay="0.4s"/>
   		<label for="forname" class="wow fadeInUp" data-wow-delay="0.6s">Type de meuble</label>
-  		<input type="text" class="wow fadeInUp" data-wow-delay="0.6s" name="meuble" id="meuble" placeholder="Bibliothèque par exemple" value="" />
+  		<input type="text" class="wow fadeInUp" data-wow-delay="0.4s" name="meuble" id="meuble" placeholder="Bibliothèque par exemple" value="" />
     </div>
     <div class="large-4 columns">
-      <label for="name" class="wow fadeInUp" data-wow-delay="0.4s">E-mail</label>
+      <label for="name" class="wow fadeInUp" data-wow-delay="0.6s">E-mail</label>
   		<input type="text" name="name" id="name" placeholder="E-mail*" value="" class="wow fadeInUp" data-wow-delay="0.4s"/>
   		<label for="forname" class="wow fadeInUp" data-wow-delay="0.6s">Téléphone*</label>
-  		<input type="text" class="wow fadeInUp" data-wow-delay="0.6s" name="meuble" id="meuble" placeholder="Téléphone" value="" />
+  		<input type="text" class="wow fadeInUp" data-wow-delay="0.4s" name="meuble" id="meuble" placeholder="Téléphone" value="" />
     </div>
   </div>
 
@@ -148,9 +148,9 @@ Lui poser des questions ? Remplissez le formulaire, il se chargera de vous répo
     </div>
 
     <div class="large-8 columns">
-      <label for="message" class="wow fadeInUp" data-wow-delay="0.4s">Message</label>
-      <textarea name="message" id="message" rows="8" cols="80" placeholder="Ecrivez votre message" class="wow fadeInUp" data-wow-delay="0.6s"></textarea>
-      <input type="text" name="" class="button warning" value="Envoyer">
+      <label for="message" class="wow fadeInUp" data-wow-delay="0.6s">Message</label>
+      <textarea name="message" id="message" rows="8" cols="80" placeholder="Ecrivez votre message" class="wow fadeInUp" data-wow-delay="0.4s"></textarea>
+      <input type="text" name="" class="button warning wow fadeInUp" date-wow-delay="0.8s" value="Envoyer">
     </div>
   </div>
 

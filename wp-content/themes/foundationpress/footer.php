@@ -44,6 +44,8 @@ jQuery(document).ready(function() {
 			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
 			return false;
 		});
+
+
 });
 </script>
 </body>
