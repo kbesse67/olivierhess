@@ -30,5 +30,24 @@
 
 <?php wp_footer(); ?>
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
+<script>
+jQuery(document).ready(function() {
+		new WOW().init();
+		console.log("jQuery est prêt !");
+		WOW.prototype.isPositionFixed = function(element) {
+		var position;
+
+		position = getComputedStyle(element).position;
+
+		while (element.parentNode && element.parentNode.localName !== 'body' && position !== 'fixed') {
+				position = getComputedStyle(element).position;
+				if (position === 'fixed') { break; }
+				element = element.parentNode;
+		}
+
+		return position === 'fixed' ? true : false;
+};
+});
+</script>
 </body>
 </html>

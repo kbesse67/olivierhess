@@ -26,10 +26,10 @@ get_header(); ?>
       </video>
   </div>
   <section class="expanded row accueil">
-    <h3>“Structures intérieures”</h3>
-    <h2>Envie d'un mobilier entièrement sur-mesure et qui correspond à votre Univers ?</h2>
-    <a href="" class="button">Voir les travaux</a>
-    <a href="" class="hollow button secondary">Contacter Olivier Hess</a>
+    <h3 class="wow fadeInLeft" data-wow-delay="0.8s">“Structures intérieures”</h3>
+    <h2 class="wow fadeInRight" data-wow-delay="1s">Envie d'un mobilier entièrement sur-mesure et qui correspond à votre Univers ?</h2>
+    <a href="" class="button wow fadeInRight " data-wow-delay="1.2s">Voir les travaux</a>
+    <a href="" class="hollow button secondary wow fadeInRight " data-wow-delay="1.4s">Contacter Olivier Hess</a>
   </section>
 </div>
 

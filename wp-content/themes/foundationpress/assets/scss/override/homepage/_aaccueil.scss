@@ -16,14 +16,10 @@ width: 100%;
 height: 100%;
 background-size: 100% 100%;
 background-color: black;
-
 background:url(../images/video.webm);
-
 background-position: center center;
 background-size: contain;
 object-fit: cover;
-
-
 }
 
 }
@@ -47,12 +43,39 @@ a {
 }
 
 
+@media screen and (max-width: rem-calc(1380)) {
+
+.themain .videoaccueil {
+  height:1580px;
+  }
+}
+
+@include breakpoint(medium only) {
+
+  .accueil {
+  padding-top:170px;
+  }
+}
 
 
-@include breakpoint(medium only) {}
-
-/*@media screen and (max-width: rem-calc(640)) */
 @include breakpoint(small only) {
+  .themain .videoaccueil {
+    height:1380px;
+    }
 
+  .accueil {
+  padding-top:170px;
+  padding-left:20px;
+  padding-right:20px;
+  a{
+    display:block;
+    margin-top:30px;
+
+  }
+  .hollow {
+    display:block;
+    margin-left:0;
+  }
+  }
 
 }

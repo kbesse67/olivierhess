@@ -1,7 +1,7 @@
 .thezero {
   width:420px;
   height:500px;
-  background:red;
+
   display:inline-block ;
 
   nav {
@@ -15,10 +15,25 @@
 }
 
 
+@include breakpoint(medium only) {
+  .thezero {
+    width:100%;
+    height:20px;
+
+    display:inline-block ;
+
+  }
+}
 
 
 @include breakpoint(small only) {
 
+  .thezero {
+    width:100%;
+    height:50px;
 
+    display:inline-block ;
+
+  }
 
 }

@@ -28,18 +28,21 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<img src="" alt="">
+	<header id="mySidenav" class="sidenav">
 
-<header class="theheader">
+	<a href="#" class="text-center logo wow fadeInLeft" data-wow-delay="0.4s" >
+		<img src="wp-content/themes/foundationpress/assets/images/logo.png" alt=""></a>
 
-	<a href="#" class="text-center logo" ><img src="wp-content/themes/foundationpress/assets/images/logo.png" alt=""></a>
 	<nav>
     <ul>
-      <li><a href="#">Travaux</a></li>
-      <li><a href="#">Olivier Hess</a></li>
-      <li><a href="#">Contact</a></li>
+			 <li class="hvr-grow wow fadeInLeft navhome" data-wow-delay="0.4s" ><a href="#">Home</a></li>
+      <li class="hvr-grow wow fadeInLeft" data-wow-delay="0.4s"><a href="#">Travaux</a></li>
+      <li  class="hvr-grow wow fadeInLeft" data-wow-delay="0.6s"><a href="#">Olivier Hess</a></li>
+      <li  class="hvr-grow wow fadeInLeft" data-wow-delay="0.8s"><a href="#">Contact</a></li>
     </ul>
   </nav>
+
+
 </header>
 	<section class="container">
 		<?php do_action( 'foundationpress_after_header' );
